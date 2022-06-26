@@ -1,6 +1,6 @@
 server is created, which interacts with our browser
 server is a local server(local host, our computer)
 server has html, css, js, resources etc files
-now, from the browser whenever we try to find the html, eg-index.html, then server will send the file to the browser and we will be seeing a website, this is how backend works
+now, from the browser whenever we try to find the html file, eg-index.html, then server will send the file to the browser and we will be seeing a website, this is how backend works
 basically, browser will be requesting the server and then server will response
 url is basically a request
