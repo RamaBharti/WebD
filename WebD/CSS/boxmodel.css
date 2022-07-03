@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+}
+body{
+    height: 100vh;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#heading{
+    text-align: center;
+    color: aqua;
+    font-size: 55px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box{
+    height: 300px;
+    width: 300px;
+    background-color:rgb(111, 0, 255);
+    /*margin-left: 200px;
+    margin-top: 200px;*/
+     /*margin-outside the box, padding-inside the box*/
+     /*padding: 30px;*/
+     border-width: 5px;
+     border-style: solid;
+     border-color: black;
+     border-radius: 25px;
+     margin: 20px;
+    display: flex; /*makes everything flexible, content inside box becomes flexible and all the content inside it become horizontal*/
+    justify-content: center;
+    align-items: center;
+}
+.box img{
+    border-radius: 25px;
+}
+.container{
+    height: 300px;
+    width: 100%;
+    background: rgb(74, 173, 235);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 300px;
+    border-radius: 15px;
+    /*padding: 20px; dont have to use padding while using display flex and all*/
+}
+.box1{
+    background: rgb(158, 16, 16);
+}
+.box2{
+    background: rgb(210, 179, 25);
+}
+.box3{
+    background: rgb(12, 138, 52);
+}
+.boxes img{
+    height: 180px;
+    width: 280px;
+    border-radius: 15px;
+}
+.boxes:hover{
+    height: 210px;
+    width: 300px;
+}
