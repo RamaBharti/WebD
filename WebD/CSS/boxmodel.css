@@ -2,13 +2,41 @@
     margin: 0;
 }
 body{
-    height: 100vh;
-    display: flex; 
+    height: 150vh;
+    /*display: flex; 
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: column;*/
 }
 
+.nav{
+    position: sticky;     /* fixed will also work but fixed forgets its original position and hence it will come over the other objects, */
+    top: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.961);
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    color: silver;
+    display: flex;
+    align-items: center;
+}
+.lists{
+    height: 70px;
+    width: 500px;
+}
+.lists ul{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    color: white;
+    list-style-type: none; /*appearing dots weill disappear*/
+    justify-content: space-evenly;
+}
 #heading{
     text-align: center;
     color: aqua;
@@ -67,7 +95,32 @@ body{
     width: 280px;
     border-radius: 15px;
 }
-.boxes:hover{
+/*.boxes:hover{
     height: 210px;
-    width: 300px;
+    width: 310px;
+}*/
+#Whatsapp{
+    position: fixed;
+    bottom: 40px;
+    right: 30px;
+}
+#Whatsapp:hover{
+    transform: scale(1.2);
+}
+
+/*cards*/
+.grid{
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+}
+.cards{
+    height: 250px;
+    width: 400px;
+    background: hsl(251, 74%, 59%);
+    box-shadow: 10px 10px 5px 0px #07321d;
+    border-radius: 15px;
 }
